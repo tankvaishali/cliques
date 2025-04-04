@@ -1,12 +1,18 @@
 
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
+import Footer from './Component/Main/Footer'
 
 function App() {
 
 
   return (
     <>
-     <div>hello</div>
+  <BrowserRouter>
+  <Routes>
+    <Route path='/' element={<Footer/>}/>
+  </Routes>
+  </BrowserRouter>
     </>
   )
 }
