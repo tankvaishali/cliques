@@ -1,0 +1,13 @@
+/* why choose start */
+.img_choose{
+    background-image: url("https://t7w25cliques.netlify.app/static/media/electrical.578d5c868203ba7f4d8d.png");
+  background-size: cover;
+ background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+.profit_cont {
+    width: 42%;
+    font-size: 25px;
+  }
+/* why choose end */
