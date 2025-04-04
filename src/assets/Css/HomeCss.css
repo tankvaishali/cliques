@@ -1,13 +1,191 @@
+/* slider start */
+
+
+.clicque .carousel-caption {
+    bottom: 45%;
+    left: 15%;
+    text-align: start;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .bg-slide {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    box-shadow: inset 0 0 0 1500px rgb(0 0 0 / 70%);
+  }
+  
+/* slider end */
+
+
+
+
+/* Aboutus start */
+.iconbg{
+    background-color: var(--info);
+}
+/* Aboutus end */
+
+
+
 /* why choose start */
 .img_choose{
-    background-image: url("https://t7w25cliques.netlify.app/static/media/electrical.578d5c868203ba7f4d8d.png");
+    background-image: url("https://t7w25cliques.netlify.app/static/media/plumbing.42962a02e22c623bb9e7.avif");
   background-size: cover;
  background-position: center;
   background-repeat: no-repeat;
- 
+ transform: scale(1);
+ transition: all 0.3s ease-in-out;
+}
+.img_choose:hover{
+ transform: scale(1.1);
+
+}
+.widthset{
+    width: 75%;
 }
 .profit_cont {
-    width: 42%;
+    width: 42% !important;
     font-size: 25px;
   }
+  @media screen and (max-width:565px){
+    .profit_cont {
+        width: 80% !important;
+      }
+      .widthset{
+        width: 100%;
+    }
+  }
+  /* button css start */
+/* From Uiverse.io by cssbuttons-io */ 
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+
+ }
+ 
+ button.learn-more {
+  width: 11.5rem;
+  height: auto;
+  
+ }
+ 
+ button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 2rem;
+  height: 2rem;
+  background: #282936;
+  border-radius: 1.625rem;
+ }
+ 
+ button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+ }
+ 
+ button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.200rem;
+  width: 1.125rem;
+  height: 0.120rem;
+  background: none;
+ }
+ 
+ button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+ }
+ 
+ button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* padding: -1.25rem 0; */
+  margin: 0px 12px 5px 1.85rem;  
+  color: #282936;
+  /* font-weight: 700; */
+  /* line-height: 1.6; */
+  text-align: center;
+ 
+ }
+ 
+ button:hover .circle {
+  width: 100%;
+ }
+ 
+ button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+ }
+ 
+ button:hover .button-text {
+  color: #fff;
+ }
+/* button css end */
 /* why choose end */
+
+
+/* Testimonial start */
+.testimonial_bg {
+    background-color: var(--dark);
+  }
+  .testimonial-card {
+    min-height: 300px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    justify-content: space-between;
+  }
+  .testi_image {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid white;
+    background: no-repeat center/cover
+      url("https://images.unsplash.com/photo-1563715992566-7ad5cf5b71d3?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .testi_bg_content {
+    background: var(--info);
+    height: 130px;
+    border-radius: 0 0 10px 10px;
+  }
+  .testi_quote {
+    float: right;
+    opacity: 0.2;
+    transform: rotate(10deg) translate(-20px, -35px);
+  }
+  .testi_person {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+  }
+/* Testimonial end */

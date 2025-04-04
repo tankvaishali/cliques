@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaPeopleGroup, FaShieldHalved } from 'react-icons/fa6';
 import { LiaStarSolid } from 'react-icons/lia';
+import { Link } from 'react-router-dom';
 
 
 function WhyChoose() {
@@ -22,35 +23,39 @@ function WhyChoose() {
         },
     ]
   return (
-    <div className='row w-100'>
-    <div className="col-12 col-lg-6 m-0 p-0">
-    <div
-                className="h-100 w-100 img_choose d-flex flex-column justify-content-end "
-                data-aos="fade-right"
-                data-aos-duration="1800"
-                data-aos-once="true"
-              >
-                <div
-                  className=" z-1 bg-info  p-4 fw-bold profit_cont text-dark"
-                  data-aos="zoom-in"
-                  data-aos-duration="1500"
-                  data-aos-once="true"
-                >
-                  Instantly connect with top professionals for any service you need.
-                <div className="pera text-white fw-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, deserunt.</div>
-               
-<button class="learn-more ">
-  <span class="circle" aria-hidden="true">
-  <span class="icon arrow"></span>
-  </span>
-  <span class="button-text">Learn More</span>
-</button>
-                </div>
-              </div>
+    <div className="py-4">
+        <div className='row w-100 my-5'>
+<div className="col-12 col-lg-6 m-0 p-0 z-0 overflow-hidden position-relative">
+  <div className="img_choose w-100" style={{ height: '100%', minHeight: '500px' }}>
+    {/* Background image should be added via CSS or inline */}
+  </div>
+  
+  <div
+    className="bg-info px-4 py-2 py-lg-4 p-lg-4 fw-bold profit_cont text-dark position-absolute bottom-0 start-0 w-100"
+    data-aos="zoom-in"
+    data-aos-duration="1500"
+    data-aos-once="true"
+    style={{ zIndex: 1 }}
+  >
+    Connect instantly with top professionals for any service.
+    <div className="pera text-white fw-medium py-2">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, deserunt.
     </div>
-    <div className="col-12 col-lg-6 m-0 p-5">
+    
+    <Link to={"/"} className="text-decoration-none">
+      <button className="learn-more">
+        <span className="circle" aria-hidden="true">
+          <span className="icon arrow"></span>
+        </span>
+        <span className="button-text fs-5 fw-medium">Learn More</span>
+      </button>
+    </Link>
+  </div>
+</div>
+
+    <div className="col-12 col-lg-6 m-0 p-lg-5 p-3">
 <div className="h-100 ">
-    <div className='w-75 mx-auto'>
+    <div className='widthset mx-auto'>
     <div
                     className="font_stroke"
                     data-aos="fade-up"
@@ -93,6 +98,7 @@ function WhyChoose() {
 
     </div>
 </div>
+    </div>
     </div>
     </div>
   );
