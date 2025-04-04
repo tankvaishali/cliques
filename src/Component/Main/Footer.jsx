@@ -148,28 +148,28 @@ function Footer() {
                 <div data-aos="fade-up" data-aos-duration="2000">
                   <div className="d-flex fs-4 my-3 ">
                     <Link
-                      to={"https://www.facebook.com/people/Belpatra-Pharmachem/100082567202591/"}
+                      to={"/"}
                       target="_blank"
-                      className="footericon text-center p-2 mx-2  ms-0 d-flex text-decoration-none text-white facebookicon">
+                      className="footericon text-center p-1 mx-2  ms-0 d-flex text-decoration-none text-white facebookicon">
                       <FaFacebookF />
                     </Link>
 
                     <Link
-                      to={"https://www.instagram.com/belpatra_pharmachem/"}
-                      className="footericon text-center p-2  mx-2 d-flex text-decoration-none text-white instaicon">
+                      to={"/"}
+                      className="footericon text-center p-1  mx-2 d-flex text-decoration-none text-white instaicon">
                       <FaInstagram />
                     </Link>
                     <Link
-                      to={"https://twitter.com/Belpatra_Pharma"}
-                      className="footericon text-center p-2  mx-2 d-flex text-decoration-none text-white twittericon">
+                      to={"/"}
+                      className="footericon text-center p-1  mx-2 d-flex text-decoration-none text-white twittericon">
                       <FaTwitter />
                     </Link>
                     <Link
                       to={
-                        "https://www.linkedin.com/in/belpatra-pharmachem/"
+                        "/"
                       }
                       target="_blank"
-                      className="footericon text-center p-2  mx-2 d-flex text-decoration-none text-white linkicon">
+                      className="footericon text-center p-1  mx-2 d-flex text-decoration-none text-white linkicon">
                       <FaLinkedinIn />
                     </Link>
 
