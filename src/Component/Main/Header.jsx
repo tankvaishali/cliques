@@ -23,7 +23,7 @@ function Header() {
                                 <Link class="nav-link text-dark text-center fw-semibold" to='/'>About</Link>
                             </li>
                             <li class="nav-item mx-3">
-                                <Link class="nav-link disabled text-dark text-center fw-semibold" to='/'>Contact</Link>
+                                <Link class="nav-link text-dark text-center fw-semibold" to='/contact'>Contact</Link>
                             </li>
                         </ul>
                     </div>

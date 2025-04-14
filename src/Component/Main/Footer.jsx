@@ -10,7 +10,7 @@ function Footer() {
     { name: "Home", path: "/" },
     { name: "About Us", path: "/" },
     { name: "Service", path: "/" },
-    { name: "Contact Us", path: "/" },
+    { name: "Contact Us", path: "/contact" },
   ]
   let servicelist = [
     { name: "Plumbing", path: "/" },
