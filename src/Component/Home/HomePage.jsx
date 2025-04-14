@@ -8,13 +8,13 @@ import Testimonial from './Testimonial';
 
 function HomePage() {
   return (
-   <>
-   <Slider/>
-   <Aboutus/>
-   <WhyChoose/>
-   <Testimonial/>
-   </>
+    <>
+      <Slider />
+      <Aboutus />
+      <WhyChoose />
+      <Testimonial />
+    </>
   );
 }
 
-export default HOC(HomePage);
+export default HOC(HomePage)

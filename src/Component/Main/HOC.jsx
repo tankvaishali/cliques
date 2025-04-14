@@ -4,15 +4,15 @@ import Header from './Header';
 
 function HOC(Component) {
     function NewComponent() {
-        return(
+        return (
             <>
-            <Header/>
-            <Component/>
-            <Footer/>
+                <Header />
+                <Component />
+                <Footer />
             </>
         )
     }
-  return NewComponent
+    return NewComponent
 }
 
-export default HOC;
+export default HOC

@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function Header() {
-
     return (
         <nav class="navbar navbar-expand-md shadow-lg">
             <div class="container-fluid">
@@ -16,11 +15,11 @@ function Header() {
                                 <Link class="nav-link active text-dark text-center fw-semibold" to='/'>Home</Link>
                             </li>
                             <li class="nav-item mx-3">
-                                <Link class="nav-link text-dark text-center fw-semibold" to='/'>Services</Link>
+                                <Link class="nav-link text-dark text-center fw-semibold" to='/services'>Services</Link>
                             </li>
                             <Link class="navbar-brand mx-3 fw-bold fs-2" to='/'>CLIQUES</Link>
                             <li class="nav-item mx-3">
-                                <Link class="nav-link text-dark text-center fw-semibold" to='/'>About</Link>
+                                <Link class="nav-link text-dark text-center fw-semibold" to='/about'>About</Link>
                             </li>
                             <li class="nav-item mx-3">
                                 <Link class="nav-link text-dark text-center fw-semibold" to='/contact'>Contact</Link>
