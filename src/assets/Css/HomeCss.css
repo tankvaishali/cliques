@@ -166,7 +166,9 @@ button:hover .button-text {
   transform: translate(-50%, -100%);
 }
 /* Testimonial end */
-.counterbck_image{
+
+/* Counter start */
+.counterbck_image {
   background-image: url("../Images/counterimage002.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -174,19 +176,19 @@ button:hover .button-text {
   object-fit: cover;
   box-shadow: inset 0px 0px 0px 2000px #02101eec;
 }
-.counter{
+.counter {
   font-family: var(--primaryfont--);
   border: 2px solid #02438471;
-background-color: #02101e3e ;
+  background-color: #02101e3e;
   position: relative;
   z-index: 0;
-  transition:  all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-.counter::after{
-  content: '';
+.counter::after {
+  content: "";
   width: 100%;
   height: 100%;
-  background-color:var(--info);
+  background-color: var(--info);
   position: absolute;
   bottom: 0%;
   left: 0;
@@ -194,21 +196,33 @@ background-color: #02101e3e ;
   z-index: -1;
   transition: all 0.3s ease-in-out;
 }
-
-.counter:hover::after{
+.counter:hover::after {
   bottom: 0%;
   height: 100%;
 }
-
-.countericon{
+.countericon {
   font-size: 80px;
 }
-.countnumber{
+.countnumber {
   font-family: none !important;
-  font-size:30px;
+  font-size: 30px;
 }
-.nextprevbtn{
-/* left: 20 !important; */
-margin: 20px !important;
+.nextprevbtn {
+  /* left: 20 !important; */
+  margin: 20px !important;
 }
-/* testimonial  */
+/* Counter end */
+
+/* HomeServices start */
+.Service_card:hover .bg-image {
+  transform: scale(1.3) !important;
+}
+.Service_icon {
+  border-radius: 20px 0px 0px 0px;
+}
+.Service_icon_wrapper {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+/* HomeServices end */

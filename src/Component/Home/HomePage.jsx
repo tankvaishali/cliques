@@ -6,6 +6,7 @@ import Aboutus from './Aboutus';
 import Slider from './Slider';
 import Testimonial from './Testimonial';
 import Counter from './Contact';
+import HomeServices from './HomeServices';
 
 function HomePage() {
   return (
@@ -15,6 +16,7 @@ function HomePage() {
       <Counter/>
       <WhyChoose />
       <Testimonial />
+      <HomeServices />
     </>
   );
 }
