@@ -23,7 +23,7 @@
 
 /* why choose start */
 .img_choose {
-  background-image: url("https://t7w25cliques.netlify.app/static/media/plumbing.42962a02e22c623bb9e7.avif");
+  background-image: url("https://laurelvalleysoils.com/wp-content/uploads/2020/02/1AdobeStock_188804688-1-1024x683.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -166,3 +166,49 @@ button:hover .button-text {
   transform: translate(-50%, -100%);
 }
 /* Testimonial end */
+.counterbck_image{
+  background-image: url("../Images/counterimage002.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  box-shadow: inset 0px 0px 0px 2000px #02101eec;
+}
+.counter{
+  font-family: var(--primaryfont--);
+  border: 2px solid #02438471;
+background-color: #02101e3e ;
+  position: relative;
+  z-index: 0;
+  transition:  all 0.3s ease-in-out;
+}
+.counter::after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color:var(--info);
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  height: 0%;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+
+.counter:hover::after{
+  bottom: 0%;
+  height: 100%;
+}
+
+.countericon{
+  font-size: 80px;
+}
+.countnumber{
+  font-family: none !important;
+  font-size:30px;
+}
+.nextprevbtn{
+/* left: 20 !important; */
+margin: 20px !important;
+}
+/* testimonial  */

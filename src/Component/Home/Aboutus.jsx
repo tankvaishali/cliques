@@ -70,23 +70,24 @@ function Aboutus() {
             </div>
           </div>
           <div className="col-12 col-lg-6">
-            <div className="h-100 position-relative">
-              <div style={{ width: "65%" }} className="mx-auto position-relative">
+            <div className="h-100 ">
+              <div  className="mx-auto ">
                 <img
-                  src="https://t7w25cliques.netlify.app/static/media/painting.f74ca14c76c1ef845a0c.jpg"
+                  src="https://t7w25cliques.netlify.app/assets/img/slider1.jpg"
                   alt=""
-                  className="img-fluid"
+                  className="img-fluid w-100 h-100 object-fit-cover"
                   style={{ display: "block", width: "100%" }}
                 />
                 <div
-                  className="  border-top border-4 border-info text-center text-info p-4 position-absolute"
+                  className="  border-top border-4 border-info text-center text-info p-4 w-75 mx-auto position-relative                                                                               "
                   style={{
-                    width: "90%",
-                    bottom: "0",
-                    left: "50%",
-                    transform: "translateX(-50%) translateY(50%)",
+                    // width: "90%",
+                    // bottom: "0",
+                    // left: "50%",
+                    // transform: "translateX(-50%) translateY(50%)",
                     zIndex: 2,
-                    backgroundColor: "var(--dark)"
+                    backgroundColor: "var(--dark)",
+                    marginTop:"-50px"
                   }}
                 >
                   <h3 className="text-white">

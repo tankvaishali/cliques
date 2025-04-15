@@ -49,7 +49,7 @@ function Testimonial() {
     return (
         <>
             <div className='testimonial_bg my-5'>
-                <div className='container'>
+                <div className='container overflow-hidden'>
                     <div className='row py-5'>
                         <div className='col-12 col-lg-4 p-4 ms-2 ms-lg-0 ms-md-0'>
                             <div className='h-100'>
